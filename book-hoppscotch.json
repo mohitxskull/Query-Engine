@@ -1,0 +1,114 @@
+{
+  "v": 6,
+  "name": "Book",
+  "folders": [],
+  "requests": [
+    {
+      "v": "11",
+      "name": "Sign In",
+      "method": "POST",
+      "endpoint": "http://localhost:3333/api/v1/auth/sign-in",
+      "params": [],
+      "headers": [],
+      "preRequestScript": "",
+      "testScript": "",
+      "auth": {
+        "authType": "inherit",
+        "authActive": true
+      },
+      "body": {
+        "contentType": "application/json",
+        "body": "{\n  \"email\": \"mohitxskull@gmail.com\",\n  \"password\": \"master$master\"\n}"
+      },
+      "requestVariables": [],
+      "responses": {}
+    },
+    {
+      "v": "11",
+      "name": "Book List",
+      "method": "GET",
+      "endpoint": "http://localhost:3333/api/v1/book",
+      "params": [],
+      "headers": [],
+      "preRequestScript": "",
+      "testScript": "",
+      "auth": {
+        "authType": "inherit",
+        "authActive": true
+      },
+      "body": {
+        "contentType": null,
+        "body": null
+      },
+      "requestVariables": [],
+      "responses": {}
+    },
+    {
+      "v": "11",
+      "name": "Book Rent",
+      "method": "POST",
+      "endpoint": "http://localhost:3333/api/v1/book/record/rent/bok_6cjkj8HZsyGuBNqRWmA4Tt",
+      "params": [],
+      "headers": [],
+      "preRequestScript": "",
+      "testScript": "",
+      "auth": {
+        "authType": "inherit",
+        "authActive": true
+      },
+      "body": {
+        "contentType": null,
+        "body": null
+      },
+      "requestVariables": [],
+      "responses": {}
+    },
+    {
+      "v": "11",
+      "name": "Rented Book List",
+      "method": "GET",
+      "endpoint": "http://localhost:3333/api/v1/book/record/",
+      "params": [],
+      "headers": [],
+      "preRequestScript": "",
+      "testScript": "",
+      "auth": {
+        "authType": "inherit",
+        "authActive": true
+      },
+      "body": {
+        "contentType": null,
+        "body": null
+      },
+      "requestVariables": [],
+      "responses": {}
+    },
+    {
+      "v": "11",
+      "name": "Book Return",
+      "method": "POST",
+      "endpoint": "http://localhost:3333/api/v1/book/record/return/bok_6cjkj8HZsyGuBNqRWmA4Tt",
+      "params": [],
+      "headers": [],
+      "preRequestScript": "",
+      "testScript": "",
+      "auth": {
+        "authType": "inherit",
+        "authActive": true
+      },
+      "body": {
+        "contentType": null,
+        "body": null
+      },
+      "requestVariables": [],
+      "responses": {}
+    }
+  ],
+  "auth": {
+    "authType": "bearer",
+    "authActive": true,
+    "token": "oat_MQ.UFlnbWVKNmRTNW5ValZOVHlDVFhGWGJKcFcteWRlTWU1UjJzeEMxMFlGQjhUVGk4MDRuVUpya2ZJME0zR3l0ZDExMDE2NTM4NTU"
+  },
+  "headers": [],
+  "_ref_id": "coll_m8r6zn72_6181d2a5-b283-4a70-85c0-3e5527c7379c"
+}
